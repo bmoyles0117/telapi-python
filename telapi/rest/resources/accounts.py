@@ -9,6 +9,7 @@ from telapi.rest.resources.cnam_lookups import CNAMLookups
 from telapi.rest.resources.conferences import Conferences
 from telapi.rest.resources.faxes import Faxes
 from telapi.rest.resources.incoming_phone_numbers import IncomingPhoneNumbers
+from telapi.rest.resources.mms_messages import MMSMessages
 from telapi.rest.resources.notifications import Notifications
 from telapi.rest.resources.recordings import Recordings
 from telapi.rest.resources.sms_messages import SMSMessages
@@ -19,7 +20,7 @@ from telapi.rest.resources.usages import Usages
 class Account(InstanceResource):
     subresources = [
         Applications, AvailablePhoneNumbers, BNALookups, Calls, CarrierLookups, 
-        CNAMLookups, Conferences, Faxes, IncomingPhoneNumbers, Notifications, 
+        CNAMLookups, Conferences, Faxes, IncomingPhoneNumbers, MMSMessages, Notifications,
         Recordings, SMSMessages, Transactions, Transcriptions, Usages
     ]
 
