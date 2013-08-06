@@ -1,4 +1,5 @@
 OUTBOUND_PARAMETER_MAP = {
+    'attachment'                : 'Attachment',
     'audio_direction'           : 'AudioDirection',
     'audio_url'                 : 'AudioUrl',
     'body'                      : 'Body',
